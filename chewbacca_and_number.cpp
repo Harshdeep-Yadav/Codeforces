@@ -8,7 +8,8 @@ int main()
     cin >> s;
 
     int n = s.size();
-    int f = s[0]-'0';
+    int f = s[0]-'0'; // convert from char to int
+
     if (f == 9)
     {
         s[0] = '9';
@@ -17,7 +18,7 @@ int main()
     {
         if (f > 4)
         {
-            s[0] = ((9 - f) + '0');
+            s[0] = ((9 - f) + '0'); // covert from int to char
         }
     }
     for (int i = 1; i < n;i++)
