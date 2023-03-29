@@ -4,7 +4,9 @@ using namespace std;
 int main(){
     int m;
     int n;
-    cin>>n>>m;
-    cout<<n<<m<<endl;  
+    cin>>n;
+    while(m--){
+        cin>>n ;
+    }
     return 0;  
 }
