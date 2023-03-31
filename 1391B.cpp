@@ -4,12 +4,16 @@ using namespace std;
 void solve()
 {
     int n, m;
-    char arr[101][101];
     cin >> n >> m;
+    char arr[n][m];
+    for(int i = 0; i <n; i++)
+        for(int j = 0; j <m; j++){
+            cin >> arr[i][j];
+        }
     int cnt = 0; // it will be going to count the number of R and D in last Column and Row.
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n-1; i++) // for each column 
     {
-        for (int j = m - 1; j >= 0; j--)
+        for (int j = m - 1; j <m; j++)
         {
             if (arr[i][j] == 'R')
             {
@@ -19,9 +23,9 @@ void solve()
         }
     }
 
-    for (int i = n - 1; i >= 0; i--)
+    for (int i = n - 1; i <n; i++) // for each row
     {
-        for (int j = 0; j < m; j++)
+        for (int j = 0; j < m-1; j++)
         {
             if (arr[i][j] == 'D')
             {
