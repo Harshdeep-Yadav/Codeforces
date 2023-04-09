@@ -18,13 +18,8 @@ bool isPalin(string s)
     }
     return true;
 }
-int main()
-{
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        int n;
+void solve(){
+    int n;
         cin >> n;
         string s;
         cin >> s;
@@ -38,6 +33,7 @@ int main()
 
             for (int i = 0, j = n - 1; i < j; i++, j--)
             {
+
                 if ((s[i] + 1 == s[j] + 1) || (s[i] + 1 == s[j] - 1) || (s[i] - 1 == s[j] + 1) || (s[i] - 1 == s[j] - 1))
                 {
                     continue;
@@ -57,6 +53,14 @@ int main()
                 printf("NO\n");
             }
         }
+}
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        solve();
     }
     return 0;
 }
