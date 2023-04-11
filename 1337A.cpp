@@ -5,17 +5,13 @@ using namespace std;
 
 int main(){
     int t;
+    ll int a,b,c,d;
     cin >> t;
-    ll n;
     while (t--)
     {
-        cin>>n;
-        if(n%2==0){
-            cout<<"Mahmoud"<<endl;
-        }
-        else{
-            cout<<"Ehab"<<endl;
-        }
+        cin>>a>>b>>c>>d;
+        cout<<b<<" "<<c<<" "<<c<<endl;
     }
     return 0;
 }
+
