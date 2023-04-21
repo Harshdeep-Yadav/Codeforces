@@ -38,5 +38,6 @@
     "iostream": "cpp",
     "ostream": "cpp",
     "valarray": "cpp"
-  }
+  },
+  "C_Cpp_Runner.showCompilationTime": false
 }
