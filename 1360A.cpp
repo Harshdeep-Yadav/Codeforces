@@ -8,7 +8,7 @@ int main(){
     cin >> t;
     while (t--)
     { //
-        cout<<"Pending"
+        cout<<"Pending";
     }
     return 0;
 }
