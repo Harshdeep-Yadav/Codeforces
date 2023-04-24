@@ -11,7 +11,7 @@ int main(){
 }
 
 
-/*-------------------------- Template-1 -----------------------------*/
+/*-------------------------- Template-2 -----------------------------*/
 
 
 #include <bits/stdc++.h>
@@ -28,3 +28,29 @@ int main(){
     }
     return 0;
 }
+
+
+
+
+/*-------------------------- Template-3-----------------------------*/
+
+
+
+#include <bits/stdc++.h>
+#define ll long long 
+#define pb push_back
+using namespace std;
+
+void solve(){
+   
+}
+int main(){
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        solve();   
+    }
+    return 0;
+}
+
