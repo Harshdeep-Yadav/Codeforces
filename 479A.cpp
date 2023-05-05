@@ -7,10 +7,10 @@ int main()
     cin >> a >> b >> c;
     ans = a + b + c;
 
-    ans = max(ans, a + (b * 3));
+    ans = max(ans, a + (b * c));
     ans = max(ans, a * (b + c));
-    ans = max(ans, a * b * c);
-    ans = max(ans, (a + b) * 3);
+    ans = max(ans, (a * b * c));
+    ans = max(ans, (a + b) * c);
 
     cout << ans << endl;
 }
