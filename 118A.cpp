@@ -6,7 +6,7 @@ int main()
     int n;
     string s, res;
     cin >> s;
-    n = s.length();
+    n = s.size();
     transform(s.begin(), s.end(), s.begin(), ::tolower);
 
     for (int i = 0; i < n; i++)

@@ -14,20 +14,20 @@ int main(){
 /*-------------------------- Template-2 -----------------------------*/
 
 
-#include <bits/stdc++.h>
-#define ll long long 
-#define pb push_back
-using namespace std;
+// #include <bits/stdc++.h>
+// #define ll long long 
+// #define pb push_back
+// using namespace std;
 
-int main(){
-    int t;
-    cin >> t;
-    while (t--)
-    {
+// int main(){
+//     int t;
+//     cin >> t;
+//     while (t--)
+//     {
         
-    }
-    return 0;
-}
+//     }
+//     return 0;
+// }
 
 
 
@@ -36,21 +36,21 @@ int main(){
 
 
 
-#include <bits/stdc++.h>
-#define ll long long 
-#define pb push_back
-using namespace std;
+// #include <bits/stdc++.h>
+// #define ll long long 
+// #define pb push_back
+// using namespace std;
 
-void solve(){
+// void solve(){
    
-}
-int main(){
-    int t;
-    cin >> t;
-    while (t--)
-    {
-        solve();   
-    }
-    return 0;
-}
+// }
+// int main(){
+//     int t;
+//     cin >> t;
+//     while (t--)
+//     {
+//         solve();   
+//     }
+//     return 0;
+// }
 
