@@ -40,5 +40,6 @@
     "valarray": "cpp"
   },
   "C_Cpp_Runner.showCompilationTime": false,
-  "code-runner.saveAllFilesBeforeRun": true
+  "code-runner.saveAllFilesBeforeRun": true,
+  "C_Cpp.errorSquiggles": "disabled"
 }
