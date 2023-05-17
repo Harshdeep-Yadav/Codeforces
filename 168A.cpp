@@ -4,7 +4,7 @@ using namespace std;
 int main(){
     int n,x,y;
     cin >> n >> x >> y;
-    int clone=max(0,(n*y)/100-x);
+    int clone=(n*y+99)/100-x;
     if(clone<0){
         cout<<0<<endl;
     }
