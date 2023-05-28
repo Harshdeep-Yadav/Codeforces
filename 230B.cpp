@@ -46,4 +46,38 @@ int main()
     return 0;
 }
 
+// TLE-------------
 
+
+#include <bits/stdc++.h>
+#define ll long long
+using namespace std;
+
+int main()
+{
+   
+   ll t;
+   cin >> t;
+   while(t--)
+   {
+      ll n;
+      cin >> n;
+      
+      int count = 1;
+      
+      for(int i = 1; i <= n/2; i++)
+      {
+         if(n%i==0){
+            count++;
+         }
+      }
+      
+      if(count==3)
+         cout << "YES" << endl;
+      else
+         cout << "NO" << endl;
+      
+   }
+   
+   return 0;
+}
