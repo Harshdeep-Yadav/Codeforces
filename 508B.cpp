@@ -7,8 +7,8 @@ int main()
     cin >> s;
     int n = s.size() - 1;
     int ind = n;
-
-    for (int i = 0; i < n; i++){
+    for (int i = 0; i < n; i++)
+    {
         if ((s[i] - '0') % 2 == 0)
         {
             ind = i;
@@ -28,3 +28,4 @@ int main()
         cout << s << endl;
     }
 }
+
