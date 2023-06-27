@@ -8,8 +8,8 @@ int main()
     ll n;
     cin >> n;
     ll a;
-    int p = 0, neg = 0;
-    vector<int> w1, w2;
+    ll p = 0, neg = 0;
+    vector<ll> w1, w2;
     bool last = false;
     while (n--)
     {
@@ -22,7 +22,7 @@ int main()
         else
         {
             w2.pb(-a);
-            neg += (-a);
+            neg += -a;
         }
         last = a > 0;
     }
@@ -44,7 +44,7 @@ int main()
                 cout << "first";
                 return 0;
             }
-            else if (w1.front() < w2.front())
+            else if (w2.front() > w1.front())
             {
                 cout << "second";
                 return 0;
