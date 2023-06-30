@@ -5,23 +5,37 @@ int main()
 {
     ll n;
     cin >> n;
-    vector<ll> v;
+    ll v[n];
     for (int i = 0; i < n; i++)
     {
         cin >> v[i];
     }
 
-    if (n < 3)
+    if (n <= 2)
     {
+        cout << n;
         return 0;
     }
-    int len = 0;
-    for (int i = n; i >= 0; i--)
+    int mini = INT_MIN;
+
+    int i = 0;
+    int x = 2;
+    while (i <= n - 2)
     {
-        if(v[i]==(v[i-1]+v[i-2])){
-            len++;
+        if (v[i] + v[i + 1] == v[i + 2])
+        {
+            x++;
+            i++;
+        }
+        else
+        {
+            mini = max(mini, x);
+            x = 2;
+            i++;
         }
     }
-    cout<<len<<endl;
+
+    mini = max(mini, x);
+    cout << mini << endl;
     return 0;
 }
