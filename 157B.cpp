@@ -1,22 +1,24 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-bool compare(int a, int b) {
+bool compare(int a, int b)
+{
     return a > b; // Compare in descending order
 }
 
-int main(){
+int main()
+{
     int r;
     cin >> r;
-   
 
     int a[r];
-    for(int i=0;i<r;i++){
+    for (int i = 0; i < r; i++)
+    {
         cin >> a[i];
     }
 
-    sort(a,a+r,compare);
-     int rr=0;
+    sort(a, a + r, compare);
+    int rr = 0;
     for (int i = 0; i < r; ++i)
     {
         rr += a[i] * a[i] * (1 - i % 2 * 2);
