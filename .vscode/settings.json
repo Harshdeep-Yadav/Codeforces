@@ -37,7 +37,8 @@
   "files.associations": {
     "iostream": "cpp",
     "ostream": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "regex": "cpp"
   },
   "C_Cpp_Runner.showCompilationTime": false,
   "code-runner.saveAllFilesBeforeRun": true,
