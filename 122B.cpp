@@ -8,7 +8,7 @@ int main()
     int n = s.length();
     int four = 0, seven = 0, fouty7 = 0;
     for (int i = 0; i < n; i++)
-    {
+    {1
         if (s[i] == '4')
         {
             four++;
