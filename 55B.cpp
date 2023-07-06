@@ -27,9 +27,14 @@ int main()
 
     sort(arr, arr + n, comp);
 
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << arr[i].first << arr[i].second << endl;
+    // }
+
     int i=0;
     while (cnt > 0 && i < n)
-    {
+    {   
         cnt--;
         sum += arr[i].first;
         cnt += arr[i].second;
