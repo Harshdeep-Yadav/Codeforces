@@ -17,7 +17,7 @@ int main()
         else
         {
             int cnt = mp[s];
-            string res = name + to_string(cnt);
+            string res = s + to_string(cnt);
 
             while (mp.find(res) != mp.end())
             {
